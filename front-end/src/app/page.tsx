@@ -20,8 +20,6 @@ const Home = () => {
 
       .then((res) => {
         setResponse(res.data.word);
-        console.log("Response Var:", response);
-        console.log("Response:", res);
       })
       .catch((err) => {
         console.error("Error:", err);
