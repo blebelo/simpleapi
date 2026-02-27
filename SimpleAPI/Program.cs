@@ -10,6 +10,8 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+app.MapGet("/", () => Results.Redirect("/swagger"));
+
 app.MapPost("/sort", (SortRequest body) =>
 {
     var data = body.Data;
