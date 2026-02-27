@@ -35,3 +35,4 @@ C:\Users\benny\Code\Projects\simpleapi\SimpleAPI\obj\Debug\net10.0\refint\Simple
 C:\Users\benny\Code\Projects\simpleapi\SimpleAPI\obj\Debug\net10.0\SimpleAPI.pdb
 C:\Users\benny\Code\Projects\simpleapi\SimpleAPI\obj\Debug\net10.0\SimpleAPI.genruntimeconfig.cache
 C:\Users\benny\Code\Projects\simpleapi\SimpleAPI\obj\Debug\net10.0\ref\SimpleAPI.dll
+C:\Users\benny\Code\Projects\simpleapi\SimpleAPI\obj\Debug\net10.0\SimpleAPI.sourcelink.json
