@@ -1,9 +1,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
-WORKDIR /src
+WORKDIR /SimpleAPI
 
 COPY . .
-RUN dotnet restore ./SimpleAPI/SimpleAPI.csproj
-RUN dotnet publish ./SimpleAPI/SimpleAPI.csproj -c Release -o /app/publish
+RUN dotnet restore ./SimpleAPI.csproj
+RUN dotnet publish ./SimpleAPI.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
